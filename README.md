@@ -23,3 +23,15 @@
 </p>
 
 <hr>
+
+<h2 align="center">⚡️ Stats</h2>
+
+<br>
+
+<div align=center>
+  <img width=390 src="https://github-readme-stats.vercel.app/api?username=Tazme12&theme=transparent&count_private=true&show_icons=true&rank_icon=github&locale=en" alt="Tazme12's GitHub Stats" />
+  <img width=390 src="https://github-readme-streak-stats.herokuapp.com/?user=Tazme12&theme=transparent&count_private=true&border_radius=10&locale=en" alt="Tazme12's" />
+  <img width=325 src="https://github-readme-stats.vercel.app/api/top-langs?username=Tazme12&theme=transparent&layout=donut&hide=css&langs_count=8&border_radius=10&show_icons=true&locale=en" alt="Tazme12's Most Used Languages" />
+</div>
+
+<hr>
