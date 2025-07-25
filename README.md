@@ -1,6 +1,4 @@
-<div class="socials-section">
-  <h2>🌐 Socials</h2>
-  <div class="socials-buttons">
+<h2 align="center">🌐 Socials</h2>
 
 <br>
 
