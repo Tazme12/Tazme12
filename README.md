@@ -1,4 +1,5 @@
-## 🌐 Socials
+<div class="socials-section">
+  <h2>🌐 Socials</h2>
 
 <br>
 
