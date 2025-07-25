@@ -13,7 +13,7 @@
 
 <hr>
 
-## 🛠️ Languages and Tools
+<h2 align="centre">🛠️ Languages and Tools</h2>
 
 <br>
 
