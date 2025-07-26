@@ -18,8 +18,8 @@
 <br>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=,git,python" />
-  <img src="https://skillicons.dev/icons?i=html,css" />
+  <img src="https://skillicons.dev/icons?i=,git,python,github" />
+  <img src="https://skillicons.dev/icons?i=html,css,flask" />
 </p>
 
 <hr>
