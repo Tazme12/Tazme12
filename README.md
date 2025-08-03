@@ -24,6 +24,15 @@
 
 <hr>
 
+<h2 align="center">👨‍🏫 Currently Learning</h2>
+
+<br>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=,js" />
+</p>
+
+<hr>
+
 <h2 align="center">⚡️ Stats</h2>
 
 <br>
