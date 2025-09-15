@@ -13,14 +13,23 @@
 
 <hr>
 
-<h2 align="center">🛠️ Languages and Tools</h2>
+<h2 align="center">💬 Languages </h2>
 
 <br>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=,git,python,github,blender" />
-  <img src="https://skillicons.dev/icons?i=html,css,flask,vscode,sqlite" />
+  <img src="https://skillicons.dev/icons?i=,git,python" />
+  <img src="https://skillicons.dev/icons?i=html,css,flask" />
 </p>
+
+<hr>
+
+<h2 align="center">🛠️ Tools </h2>
+
+<br>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=,blender,github,vscode,sqlite"
 
 <hr>
 
