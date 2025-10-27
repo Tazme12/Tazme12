@@ -29,7 +29,7 @@
 <br>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=,blender,github,vscode,sqlite,aws"/>
+  <img src="https://skillicons.dev/icons?i=,blender,github,vscode,sqlite,aws,amazondynamodb"/>
 </p>
 
 <hr>
