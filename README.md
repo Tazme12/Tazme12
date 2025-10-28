@@ -38,7 +38,7 @@
 
 <br>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=,typescript" />
+  <img src="https://skillicons.dev/icons?i=typescript" />
 </p>
 
 <hr>
