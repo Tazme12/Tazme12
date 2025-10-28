@@ -19,7 +19,7 @@
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=react,git,python,javascript" />
-  <img src="https://skillicons.dev/icons?i=html,css,flask,php," />
+  <img src="https://skillicons.dev/icons?i=html,css,flask,php,SQL" />
 </p>
 
 <hr>
