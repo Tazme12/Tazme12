@@ -49,7 +49,7 @@
 
 <div align=center>
   <img width=390 src="https://github-readme-stats.vercel.app/api?username=Tazme12&theme=transparent&count_private=true&show_icons=true&rank_icon=github&locale=en" alt="Tazme12's GitHub Stats" />
-<img src="https://nirzak-streak-stats.vercel.app/?user=tazme12&theme=transparent&hide_border=false"/><br/>
+<img src="https://nirzak-streak-stats.vercel.app/?user=tazme12&theme=transparent&hide_border=false&color=green"/><br/>
 <img width=325 src="https://github-readme-stats.vercel.app/api/top-langs?username=Tazme12&theme=transparent&layout=donut&hide=css&langs_count=8&border_radius=10&show_icons=true&locale=en" alt="Tazme12's Most Used Languages" />
 </div>
 
