@@ -74,6 +74,6 @@
     <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Tazme12&theme=omni" width="100%">
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=Tazme12&point=e8df7a&title_color=ff7ac7&bg_color=191622&line=ff7ac7&hide_border=true&area=true&area_color=e8df7a&color=e8df7a">
     <p align="center"><img src="assets/snakegridtitle.gif" width="500" ></p> -->
-    <!-- <img src="https://raw.githubusercontent.com/Ahtisham-1214/Ahtisham-1214/snake/github-snake-dark.svg" width="100%"><br> -->
+    <img src="https://raw.githubusercontent.com/Tazme12/Tazme12/snake/github-snake-dark.svg" width="100%"><br>
     <img src="https://raw.githubusercontent.com/Tazme12/Tazme12/output-3d-contrib/profile-green-dual.svg" alt="3D Contributions"/>
 </p>
