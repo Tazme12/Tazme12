@@ -21,14 +21,21 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
 
-      - name: Show git status before commit
-        run: git status
+      - name: List files after SVG generation
+        run: ls -la
 
       - name: Add SVG file
-        run: git add profile-green-dual.svg
+        run: |
+          # Try to find the SVG file generated
+          SVG_FILE=$(find . -name "*.svg" | head -n 1)
+          echo "SVG file found: $SVG_FILE"
 
-      - name: Show git status after adding SVG
-        run: git status
+          if [ -z "$SVG_FILE" ]; then
+            echo "No SVG file found, skipping commit."
+            exit 0
+          fi
+
+          git add "$SVG_FILE"
 
       - name: Commit changes if any
         run: |
@@ -41,6 +48,4 @@ jobs:
           fi
 
       - name: Push changes
-        run: |
-          echo "Pushing changes..."
-          git push origin main
+        run: git push origin main
