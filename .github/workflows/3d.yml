@@ -9,9 +9,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout main branch
+        uses: actions/checkout@v4
         with:
-          ref: main   # Ensures checkout of main branch
+          ref: main
 
       - name: Generate 3D graph
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
@@ -19,10 +20,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
 
-      - name: Commit output
+      - name: Commit and push changes
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
+          git status
           git add profile-green-dual.svg
-          git commit -m "Generate 3D contribution graph" || exit 0
+          git status
+          git commit -m "Generate 3D contribution graph" || echo "No changes to commit"
           git push origin main
