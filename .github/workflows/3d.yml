@@ -22,10 +22,15 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
           git status
           git add profile-green-dual.svg
           git status
-          git commit -m "Generate 3D contribution graph" || echo "No changes to commit"
-          git push origin main
+          # Only commit if there are changes
+          if ! git diff --cached --quiet; then
+            git commit -m "Generate 3D contribution graph"
+            git push origin main
+          else
+            echo "No changes to commit"
+          fi
