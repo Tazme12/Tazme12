@@ -67,5 +67,6 @@
 
 <hr>
 
-[![3D Contribution Graph](https://raw.githubusercontent.com/Tazme12/Tazme12/main/profile-green.svg)](https://raw.githubusercontent.com/Tazme12/Tazme12/main/profile-green-animate.svg)
+[![3D Contribution Graph](https://raw.githubusercontent.com/Tazme12/Tazme12/main/profile-3d-contrib/profile-night-rainbow.svg)](https://raw.githubusercontent.com/Tazme12/Tazme12/main/profile-3d-contrib/profile-night-rainbow.svg)
+
 
