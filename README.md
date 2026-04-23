@@ -38,7 +38,7 @@
 
 <br>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=typescript, swift" />
+  <img src="https://skillicons.dev/icons?i=typescript,swift" />
 </p>
 
 <hr>
