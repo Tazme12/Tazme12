@@ -13,7 +13,7 @@
 
 <hr> 
 
-<h2 align="center">💬 Languages </h2>
+<h2 align="center">💬 Languages </h2> 
 
 <br>
 
