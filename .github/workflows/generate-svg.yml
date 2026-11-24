@@ -1,7 +1,13 @@
+
 name: Generate 3D Contribution Graph
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 18 * * *"
+
+permissions:
+  contents: write
 
 jobs:
   generate-svg:
@@ -9,11 +15,10 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           ref: main
           fetch-depth: 0
-          persist-credentials: true
 
       - name: Generate 3D graph SVG
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
@@ -21,30 +26,18 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
 
-      - name: List files after SVG generation
-        run: ls -la
-
-      - name: Add SVG file
+      - name: Commit updated SVGs
         run: |
-          # Try to find the SVG file generated
-          SVG_FILE=$(find . -name "*.svg" | head -n 1)
-          echo "SVG file found: $SVG_FILE"
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
 
-          if [ -z "$SVG_FILE" ]; then
-            echo "No SVG file found, skipping commit."
-            exit 0
-          fi
+          git add -A profile-3d-contrib/
 
-          git add "$SVG_FILE"
-
-      - name: Commit changes if any
-        run: |
           if git diff --cached --quiet; then
-            echo "No changes to commit."
+            echo "No SVG changes detected."
           else
-            git config user.name "github-actions"
-            git config user.email "github-actions@github.com"
-            git commit -m "Generate 3D contribution graph"
+            git commit -m "Update 3D contribution graph"
+            git push origin main
           fi
 
       - name: Push changes
